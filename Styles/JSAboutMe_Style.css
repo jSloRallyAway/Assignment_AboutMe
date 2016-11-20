@@ -9,7 +9,7 @@ body, html {
 
 
 #navBar{
-	position: fixed;
+	position: absolute;
 	top: 25px;
 	right: 50px;
 	z-index: 2;
@@ -56,11 +56,11 @@ body, html {
 	width: 100%;
 	z-index: 1;
 	background-color: black;
-	opacity: .2;
+	opacity: .25;
 
 }
 
-#backgroundImage1, #backgroundImage2 {
+#backgroundImage1, #backgroundImage2, #backgroundImage3 {
   position: relative;
   background-attachment: fixed;
   background-position: center;
@@ -72,13 +72,16 @@ body, html {
 	#backgroundImage1{
 	  background-image: url("../Images/BigSur2.jpg");
 	  min-height: 100%;
-
-
 	}
 
 	#backgroundImage2{
 	  background-image: url("../Images/RoadTrip2.jpg");
 	  min-height: 100%;
+	}
+
+	#backgroundImage3{
+	  background-image: url("../Images/Beacon.jpg");
+	  min-height: 75%;
 	}
 
 	.slogan {
@@ -98,7 +101,25 @@ body, html {
 	  letter-spacing: 10px;
 	}
 
+#content{
+	z-index: 3;
+	box-sizing: border-box;
+	height: 175px;
+	padding: 25px;
+}
 
+#title{
+	font-size: 30px;
+	letter-spacing: 10px;
+	text-align: center;
+	z-index: 3;
+}
+
+.subtitle{
+	font-size: 15px;
+	letter-spacing: 2px;
+	text-align: center;
+}
 
 
 
