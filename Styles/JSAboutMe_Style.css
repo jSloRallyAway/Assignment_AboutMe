@@ -6,7 +6,13 @@ body, html {
   font: 400 15px/1.8 "Lato", sans-serif;
 }
 
-
+#siteTitle{
+	position: absolute;
+	top: 25px;
+	left: 50px;
+	z-index: 2;
+	font-size: 30px;
+}
 
 #navBar{
 	position: absolute;
@@ -23,27 +29,25 @@ body, html {
 	li{
 	   padding: 5px;
 
-
 	}
-
 
 	a{
 	text-decoration: none;
 	}
 	
 	a:link{
-	color: #006400;
+	color: white;
 	
 	}
 
 	a:visited{
-		color: #006400;
+		color: white;
 
 	}
 
 	a:hover{
-		color: #F5F5DC;
-		transition: all ease-out .3s; 
+		color: 	#2F4F4F;
+		transition: all ease-out .7s; 
 	}
 
 	p{
