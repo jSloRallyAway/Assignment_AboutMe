@@ -1,0 +1,133 @@
+/* QUESTIONS:
+
+How do you center align the div that contains the images? Having trouble getting it truly center.
+
+How do you adjust the width of the images - in relation to the width of the parent div - so that they are always filling rows of the parent?
+	i.e. Can you make it responsive enough within one entry so that you don't have to have 9 media queries for each break point (as I have below)?
+*/
+
+body{
+	background-color: #f5f5dc;
+}
+
+#container{
+	width: 100%;
+}
+
+#gallery{
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+	top: 25px;
+}
+
+	.images{
+		width: 350px;
+		height: 350px;
+		margin: 5px;
+		border: 2px solid black;
+		background-image: url(http://placehold.it/350x350); 
+		background-size: cover;
+		display: inline-block;
+
+	}
+
+		#barn{
+			background-image: url(../Images/Barn.jpg);
+		}
+
+		#whiteSands{
+			background-image: url(../Images/WhiteSands.jpg)
+
+		}
+
+		#bonnaroo{
+			background-image: url(../Images/Bonnaroo.jpg)
+		}
+
+		#arches{
+			background-image: url(../Images/Arches.jpg)
+		}
+
+		#newport{
+			background-image: url(../Images/Newport.JPG)
+		}
+
+		#haystack{
+			background-image: url(../Images/Haystack.jpg)
+		}
+
+
+	@media (max-width:1200px) { /* NEARING FULL SCREEN */
+		.images {
+			width: 300px;
+			height: 300px;
+			border: 2px solid black;
+
+		}
+
+	@media (max-width:1024px) { /* MAJOR BREAK */
+		.images {
+			width: 275px;
+			height: 275px;
+			border: 2px solid black;
+
+		}
+
+	@media (max-width: 950px) {
+		.images {
+			width: 250px;
+			height: 250px;
+			border: 2px solid black;
+
+		}
+
+	@media (max-width: 875px) {
+		.images {
+			width: 300px;
+			height: 300px;
+			border: 2px solid black;
+
+		}
+
+	@media (max-width:768px) { /* IPAD */
+		.images {
+			width: 275px;
+			height: 275px;
+			border: 2px solid black;
+
+		}
+
+	@media (max-width:720px) { /* SMART PHONE ZONE */
+		.images {
+			width: 250px;
+			height: 250px;
+			border: 2px solid black;
+
+		}
+
+	@media (max-width:585px) {
+		.images {
+			width: 200px;
+			height: 200px;
+			border: 2px solid black;
+
+		}
+
+	@media (max-width:480px) { /* FIRST GEN SMART PHONE */
+		.images {
+			width: 200px;
+			height: 200px;
+			border: 2px solid black;
+
+		}
+
+	@media (max-width:475px) {
+		.images {
+			width: 350px;
+			height: 350px;
+			border: 2px solid black;
+
+		}
+
+

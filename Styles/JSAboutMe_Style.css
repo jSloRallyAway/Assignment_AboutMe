@@ -1,0 +1,103 @@
+body{
+    font-family: "Palatino Linotype", "Book Antiqua", "Palatino", serif;
+}
+
+	a{
+	text-decoration: none;
+	}
+	
+	a:link{
+	color: #006400;
+	
+	}
+
+	a:visited{
+		color: #006400;
+
+	}
+
+	a:hover{
+		color: #F5F5DC;
+		transition: all ease-out .3s; 
+	}
+
+	p{
+		line-height: 110%;
+	}
+
+
+.backgroundImages{
+	position: absolute;
+	z-index: -999;
+	top: 0px;
+	left: 0px;
+
+}
+
+#backgroundImage1, #backgroundImage2{
+	width: 100%;
+
+}
+
+#aboutBox{
+	height: 250px;
+	width: 400px;
+    border: 5px solid black;
+    background-color: rgba(245,245,220, .5);
+    padding: 25px;
+    margin: 25px;
+    font-size: 20px;
+    position: fixed;
+    overflow: auto; 
+
+}
+
+	#nameIntro{
+		font-size: 16px;
+		text-align: center;
+
+	}
+
+	#nameName{
+		font-weight: bolder;
+		color: #006400;
+		text-align: center;
+		font-size: 40px;
+
+	}
+
+
+	.aboutHeaders{
+		font-size: 16px;
+		font-weight: bold;
+		color: #006400;
+
+	}
+
+	.aboutBodies{
+		text-align: center;
+	}
+
+	#nameName,.aboutHeaders, .aboutBodies{
+		margin-bottom: 10px;
+	}
+
+nav li {
+	display: inline-block;
+}
+
+	#navBar{
+		position: fixed;
+		top: 25px;
+		right: 50px;
+
+	}
+
+	li{
+	   padding: 5px;
+	   border: 1px solid black;
+
+
+	}
+
+
