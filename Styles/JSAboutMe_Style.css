@@ -4,46 +4,27 @@ body, html {
   height: 100%;
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
-  color: #777;
 }
 
-#backgroundImage1, #backgroundImage2 {
-  position: relative;
-  opacity: 0.65;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 
-}
 
-#backgroundImage1{
-  background-image: url("../Images/BigSur2.jpg");
-  min-height: 100%;
-}
+#navBar{
+	position: fixed;
+	top: 25px;
+	right: 50px;
+	z-index: 2;
 
-#backgroundImage2{
-  background-image: url("../Images/RoadTrip2.jpg");
-  min-height: 400px;
-}
+	}
 
-.caption {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #000;
-}
+	nav li {
+		display: inline-block;
+	}
 
-.caption span.border {
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
-}
+	li{
+	   padding: 5px;
 
+
+	}
 
 
 	a{
@@ -69,36 +50,56 @@ body, html {
 		line-height: 110%;
 	}
 
-/*
-.backgroundImages{
-	position: absolute;
-	z-index: -999;
-	top: 0px;
-	left: 0px;
-
-}
-
-#backgroundImage1, #backgroundImage2{
+#backgroundOverlay{
+	position: fixed;
+	height: 100%;
 	width: 100%;
+	z-index: 1;
+	background-color: black;
+	opacity: .2;
 
 }
-*/
 
-nav li {
-	display: inline-block;
+#backgroundImage1, #backgroundImage2 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
-	#navBar{
-		position: fixed;
-		top: 25px;
-		right: 50px;
+	#backgroundImage1{
+	  background-image: url("../Images/BigSur2.jpg");
+	  min-height: 100%;
+
 
 	}
 
-	li{
-	   padding: 5px;
+	#backgroundImage2{
+	  background-image: url("../Images/RoadTrip2.jpg");
+	  min-height: 100%;
+	}
 
+	.slogan {
+	  position: absolute;
+	  left: 0;
+	  top: 40%;
+	  width: 100%;
+	  text-align: center;
+	  color: #f7f7f7;
+	  z-index:2;
 
 	}
+
+	.slogan span.border {
+	  padding: 18px;
+	  font-size: 50px;
+	  letter-spacing: 10px;
+	}
+
+
+
+
 
 
