@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 
 <!-- 
-This assignment will be the beginning of a larger project. In the end you will have a multi-page personal website! Today you will complete the first page called "About Me". This page will be you introducing yourself to the world so think about what information you want to share. Are you wanting to be a Web Developer? Start your portfolio site and introduce yourself as a developer! Are you a current Graphic Designer and want to create your own site? Introduce yourself as a designer learning to code! Whatever the theme is be sure to represent yourself well and have fun. Take a look at what others are doing to get inspiration. Siteinspire.com is a great resource for modern design trends and hints to get you started. Share a photo and tell us a little more about who you are. Remember you can always change and update this page later, this assigment is to demonstrate you have the basics down first.
+Assignment:
+
+This assignment will be the finished and polished version of what you've been working on so far! You already started your "About Me" and "Images" pages of your personal website. Now it is time to polish those two and add one more! This third page will be your choice. You can create a blog page, contact me page or something else that inspires you. It should carry over the same style choices you made in the first two pages. Make sure you add navigation links so that you can navigate to and from each page easily. The final product will be your first website!
+
+The other part of this assignment is to utilize git as you work. From start to finish you should be making multiple commits. Think about if you've ever had to write a long paper, as you wrote you would reach points and think "this is a good place to save". Continue that thinking with this project. As you write HTML/CSS be sure to "save" your work with git and GitHub.
 
 Grading criteria:
 
-HTML is properly formatted and indented correctly.
-CSS file is linked properly to an external stylesheet
-CSS is formatted properly
-Every element on the page has been styled, nothing left to default styling.
-At least one image is used and linked properly
-Your name is clearly visible
-About you content is thoughtfully written and clearly visible 
+HTML/CSS is formatted and linked properly
+At least one additional content page is added
+About Me page has updated styling
+6-10 commits showing progress
+GitHub repository is properly set up
+All files are in one project folder
+All pages are linked to navigate back and forth
 -->
 
 <html>
@@ -25,43 +29,26 @@ About you content is thoughtfully written and clearly visible
 </head>
 
 <body>
-	<div class="backgroundImages">
-	<img id="backgroundImage1" src="Images/BigSur2.jpg">
-	<img id="backgroundImage2" src="Images/RoadTrip2.jpg">
+
+	<div id="backgroundImage1">
+  		<div class="caption">
+   			<span class="border">SCROLL DOWN</span>
+ 		 </div>
+	</div>
+
+	<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  		<h3 style="text-align:center;">Parallax Demo</h3>
+ 			 <p>Parallax scrolling is a web site trend where the background content is moved at a different speed than the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.</p>
+		</div>
+
+
+	<div id="backgroundImage2">
+  		<div class="caption">
+   			 <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">LESS HEIGHT</span>
+  		</div>
 	</div>
 
 
-	<div id="aboutBox">
-
-		<p id="nameIntro">
-		Hello. My name is
-		</p>
-
-		<p id="nameName">
-		JUSTIN SLOANE 
-		<hr width="50%" color="black"><br>
-		</p>
-		
-
-		<p class="aboutHeaders"> 
-		About me, in haiku: 
-		</p>
-
-		<p class="aboutBodies">
-		A balance between <br>
-		A folk disposition and <br>
-		A hip hop mindset. 
-		</p>
-
-		<p class="aboutHeaders">
-		About me, in uninspired prose:
-		</p>
-
-		<p class="aboutBodies">
-		I currently work in business development at <a href="http://superf.ly" target="_blank">Superfly</a>, and spend much of my free time planning group trips under my side project, <a href="http://rallyaway.com" target="_blank">Rally Away</a>. 
-		</p>
-
-	</div>
 
 	<nav id="navBar">
 		<ul>

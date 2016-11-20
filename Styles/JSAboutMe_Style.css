@@ -1,6 +1,50 @@
-body{
-    font-family: "Palatino Linotype", "Book Antiqua", "Palatino", serif;
+
+    
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
 }
+
+#backgroundImage1, #backgroundImage2 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#backgroundImage1{
+  background-image: url("../Images/BigSur2.jpg");
+  min-height: 100%;
+}
+
+#backgroundImage2{
+  background-image: url("../Images/RoadTrip2.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+
 
 	a{
 	text-decoration: none;
@@ -25,7 +69,7 @@ body{
 		line-height: 110%;
 	}
 
-
+/*
 .backgroundImages{
 	position: absolute;
 	z-index: -999;
@@ -38,49 +82,7 @@ body{
 	width: 100%;
 
 }
-
-#aboutBox{
-	height: 250px;
-	width: 400px;
-    border: 5px solid black;
-    background-color: rgba(245,245,220, .5);
-    padding: 25px;
-    margin: 25px;
-    font-size: 20px;
-    position: fixed;
-    overflow: auto; 
-
-}
-
-	#nameIntro{
-		font-size: 16px;
-		text-align: center;
-
-	}
-
-	#nameName{
-		font-weight: bolder;
-		color: #006400;
-		text-align: center;
-		font-size: 40px;
-
-	}
-
-
-	.aboutHeaders{
-		font-size: 16px;
-		font-weight: bold;
-		color: #006400;
-
-	}
-
-	.aboutBodies{
-		text-align: center;
-	}
-
-	#nameName,.aboutHeaders, .aboutBodies{
-		margin-bottom: 10px;
-	}
+*/
 
 nav li {
 	display: inline-block;
@@ -95,7 +97,6 @@ nav li {
 
 	li{
 	   padding: 5px;
-	   border: 1px solid black;
 
 
 	}
