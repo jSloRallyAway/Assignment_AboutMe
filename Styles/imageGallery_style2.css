@@ -1,0 +1,69 @@
+#siteTitle2{
+	position: absolute;
+	top: 25px;
+	left: 50px;
+	z-index: 2;
+	font-size: 30px;
+}
+
+	#siteTitle2 a{
+		color:#2F4F4F;
+		text-decoration: none;
+	}
+
+	#siteTitle2 a:hover{
+		color: #ADD8E6;
+		transition: all ease-out .7s; 
+	}
+
+#navBar2{
+	position: absolute;
+	top: 25px;
+	right: 50px;
+	z-index: 2;
+
+}
+	
+	#navBar2 a{
+		color:#2F4F4F;
+		text-decoration: none;
+	}
+
+	#navBar2 a:hover{
+		color:#ADD8E6;
+		transition: all ease-out .7s; 
+	}
+
+	nav li {
+		display: inline-block;
+	}
+
+	li{
+	   padding: 5px;
+
+	}
+
+	a{
+		color: hotpink;
+	}
+	
+
+#gallery{
+	position: absolute;
+	width: 100%;
+	top: 100px;
+/*	padding-left: 10%;
+*/}
+
+	.images{
+		width: 300px;
+		height: 300px;
+	}
+
+	.imageContainer{
+		display: block;
+		float: left;
+		margin-right: 10px;
+		margin-bottom: 25px;
+
+	}

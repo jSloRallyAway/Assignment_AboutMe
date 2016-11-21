@@ -10,6 +10,8 @@ body{
 	background-color: white;
 }
 
+
+
 #container{
 	width: 100%;
 }
@@ -56,8 +58,7 @@ body{
 		#haystack{
 			background-image: url(../Images/Haystack.jpg)
 		}
-
-
+<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
 	@media (max-width:1200px) { /* NEARING FULL SCREEN */
 		.images {
 			width: 300px;
