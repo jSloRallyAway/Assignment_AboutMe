@@ -1,3 +1,8 @@
+
+body, html {
+  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+}
+
 #siteTitle2{
 	position: absolute;
 	top: 25px;
@@ -7,13 +12,15 @@
 }
 
 	#siteTitle2 a{
-		color:#2F4F4F;
+		color: #2F4F4F;
 		text-decoration: none;
+		font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
 	}
 
 	#siteTitle2 a:hover{
 		color: #ADD8E6;
 		transition: all ease-out .7s; 
+
 	}
 
 #navBar2{
@@ -27,6 +34,8 @@
 	#navBar2 a{
 		color:#2F4F4F;
 		text-decoration: none;
+		font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+
 	}
 
 	#navBar2 a:hover{
@@ -42,18 +51,36 @@
 	   padding: 5px;
 
 	}
-
-	a{
-		color: hotpink;
-	}
 	
+#pageTitle{
+	position: absolute;
+	display: block;
+	left: 0;
+	top: 75px;
+	width: 100%;
+	text-align: center;
+	color: #2F4F4F;
+}
+	#pageTitle span.border {
+	  padding: 18px;
+	  font-size: 50px;
+	  letter-spacing: 10px;
+	  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+
+	}
+
 
 #gallery{
 	position: absolute;
 	width: 100%;
-	top: 100px;
+	top: 200px
 /*	padding-left: 10%;
 */}
+
+	#galleryContainer{
+		width: 930px;
+		margin: 0 auto;
+	}
 
 	.images{
 		width: 300px;
@@ -61,9 +88,7 @@
 	}
 
 	.imageContainer{
-		display: block;
 		float: left;
-		margin-right: 10px;
-		margin-bottom: 25px;
+		margin: 5px;
 
 	}
