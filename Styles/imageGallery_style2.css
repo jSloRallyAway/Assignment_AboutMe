@@ -74,8 +74,7 @@ body, html {
 	position: absolute;
 	width: 100%;
 	top: 200px
-/*	padding-left: 10%;
-*/}
+}
 
 	#galleryContainer{
 		width: 930px;
@@ -92,3 +91,43 @@ body, html {
 		margin: 5px;
 
 	}
+
+@media (max-width: 900px) {
+  #galleryContainer{
+  	width: 780px;
+  }
+  .images{
+  	width: 250px;
+  	height: 250px;
+  }
+}
+
+@media (max-width: 720px) {
+  #galleryContainer {
+    width: 630px;
+  }
+  .images{
+  	width: 200px;
+  	height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  #navBar2 a{
+	font-size: 0;
+
+  }
+  #pageTitle{
+  	top: 125px;
+  }
+  #pageTitle span.border{
+  	font-size: 30px;
+  }
+  #galleryContainer {
+    width: 310px;
+  }
+  .images{
+  	width: 300px;
+  	height: 300px;
+  }
+}
