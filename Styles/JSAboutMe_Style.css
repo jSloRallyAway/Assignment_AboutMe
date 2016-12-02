@@ -90,7 +90,7 @@ body, html {
 
 	#backgroundImage3{
 	  background-image: url("../Images/Beacon.jpg");
-	  min-height: 75%;
+	  min-height: 100%;
 	}
 
 	.slogan {
@@ -111,23 +111,30 @@ body, html {
 	}
 
 #content{
-	z-index: 3;
+	position: absolute;
 	box-sizing: border-box;
-	height: 175px;
-	padding: 25px;
-}
-
-#title{
-	font-size: 30px;
-	letter-spacing: 10px;
-	text-align: center;
+	height: 150px;
+	width: 100%;
+	background-color: #f7f7f7;
 	z-index: 3;
+
 }
 
-.subtitle{
-	font-size: 15px;
-	letter-spacing: 2px;
-	text-align: center;
-}
+	#contentTitle{
+		font-size: 30px;
+		letter-spacing: 10px;
+		text-align: center;
+		z-index: 3;
+
+	}
+
+	.contentSubtitle{
+		font-size: 15px;
+		letter-spacing: 2px;
+		text-align: center;
+		z-index: 3;
+	}
+
+
 
 
