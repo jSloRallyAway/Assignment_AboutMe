@@ -22,21 +22,26 @@ body, html {
 
 	}
 
+	#navBar a{
+		font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+
+	}
+
 	nav li {
 		display: inline-block;
 	}
 
 	li{
-	   padding: 5px;
+		padding: 5px;
 
 	}
 
 	a{
-	text-decoration: none;
+		text-decoration: none;
 	}
 	
 	a:link{
-	color: white;
+		color: white;
 	
 	}
 
@@ -124,7 +129,5 @@ body, html {
 	letter-spacing: 2px;
 	text-align: center;
 }
-
-
 
 

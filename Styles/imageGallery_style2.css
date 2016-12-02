@@ -1,7 +1,4 @@
 
-body, html {
-  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
-}
 
 #siteTitle2{
 	position: absolute;
@@ -53,7 +50,7 @@ body, html {
 	}
 	
 #pageTitle{
-	position: absolute;
+	position: relative;
 	display: block;
 	left: 0;
 	top: 75px;
@@ -71,9 +68,9 @@ body, html {
 
 
 #gallery{
-	position: absolute;
+	position: relative;
 	width: 100%;
-	top: 200px
+	top: 125px
 }
 
 	#galleryContainer{
@@ -91,6 +88,11 @@ body, html {
 		margin: 5px;
 
 	}
+
+html{
+	margin-bottom: 150px;
+}
+
 
 @media (max-width: 900px) {
   #galleryContainer{
@@ -115,7 +117,6 @@ body, html {
 @media (max-width: 480px) {
   #navBar2 a{
 	font-size: 0;
-
   }
   #pageTitle{
   	top: 125px;
