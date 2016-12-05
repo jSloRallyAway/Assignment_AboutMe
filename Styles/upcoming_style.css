@@ -65,3 +65,47 @@
 	  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
 
 	}
+
+#tripGallery{
+	position: relative;
+	width: 100%;
+	top: 125px
+}
+
+	#galleryContainer{
+		width: 980px;
+		margin: 0 auto;
+	}
+
+	.images{
+		width: 300px;
+		height: 300px;
+
+	}
+
+	.tripContainer{
+		float: left;
+		width: 300px;
+		margin: 10px;
+
+	}
+
+	.tripText{
+		font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+		color: #2F4F4F;
+		line-height: 20px
+
+	}
+
+		.tripText a{
+			color:#2F4F4F;
+			text-decoration: none;
+			font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+			font-weight: bold;
+		}
+
+		.tripText a:hover{
+			color:#ADD8E6;
+			transition: all ease-out .7s; 
+
+		}
