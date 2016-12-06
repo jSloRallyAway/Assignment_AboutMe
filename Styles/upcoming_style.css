@@ -112,6 +112,9 @@
 
 		}
 
+html{
+	margin-bottom: 150px;
+}
 
 @media (max-width: 980px) {
   #galleryContainer{
