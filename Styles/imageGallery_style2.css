@@ -94,7 +94,7 @@ html{
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 940px) {
   #galleryContainer{
   	width: 780px;
   }
@@ -104,22 +104,44 @@ html{
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 780px) {
   #galleryContainer {
-    width: 630px;
+    width: 550px;
+    margin: 0 auto;
   }
   .images{
-  	width: 200px;
-  	height: 200px;
+  	width: 250px;
+  	height: 250px;
   }
 }
 
-@media (max-width: 480px) {
+
+@media (max-width: 575px){
+	#siteTitle2{
+  		width: 100%;
+		text-align: center;
+		left: 0px;
+  }
+	#navBar2 a{
+		display: none;
+  }
+  	#pageTitle span.border{
+		font-size: 30px;
+  	}
+
+}
+
+@media (max-width: 530px) {
+  #siteTitle2{
+  	width: 100%;
+	text-align: center;
+	left: 0px;
+  }
   #navBar2 a{
-	font-size: 0;
+	display: none;
   }
   #pageTitle{
-  	top: 125px;
+  	top: 100px;
   }
   #pageTitle span.border{
   	font-size: 30px;
