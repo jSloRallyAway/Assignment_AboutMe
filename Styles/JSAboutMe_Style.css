@@ -24,6 +24,7 @@ body, html {
 
 	#navBar a{
 		font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+		letter-spacing: 1px;
 
 	}
 
@@ -128,13 +129,105 @@ body, html {
 
 	}
 
-	.contentSubtitle{
+	#contentSubtitle1{
 		font-size: 15px;
 		letter-spacing: 2px;
 		text-align: center;
 		z-index: 3;
 	}
 
+	#contentSubtitle2{
+		font-size: 15px;
+		letter-spacing: 2px;
+		text-align: center;
+		z-index: 3;
+
+	}
+
+	#line1{
+		width: 67.5%;
+	}
+
+	#line2{
+		width: 60%;
+	}
 
 
+@media (max-width: 775px) {
+	#content{
+		height: 135px;
+	}
+	#contentTitle{
+		font-size: 25px;
+	}
+	#contentSubtitle1, #contentSubtitle2{
+		font-size: 12.5px;
+	}
+	#line1{
+		width: 80%;
+	}
+	#line2{
+		width: 72.5%;
+	}
+}
 
+@media (max-width: 670px) {
+	#content{
+		height: 90px;
+		padding-top: 20px;
+	}
+	#contentTitle{
+		font-size: 20px;
+	}
+	#contentSubtitle2{
+		display: none;
+	}
+	#line1{
+		display: none;
+	}
+	#line2{
+		display: none;
+	}
+
+}
+
+
+@media (max-width: 640px){
+	#siteTitle{
+  		width: 100%;
+		text-align: center;
+		left: 0px;
+  }
+  	#navBar{
+		display: none;
+  }
+
+}
+
+@media (max-width: 585px){
+	#content{
+		height: 70px;
+		padding-top: 5px;
+	}
+	#contentTitle{
+		display: none;
+	}
+	#contentSubtitle1{
+		font-size: 15px;
+	}
+
+}
+
+@media (max-width: 510px){
+	.slogan span.border{
+		font-size: 30px;
+	}
+
+}
+
+@media (max-width: 385px){
+	.slogan span.border{
+		font-size: 20px;
+	}
+
+}

@@ -151,34 +151,57 @@ html{
 
   	#pageTitle span.border{
 		font-size: 30px;
+		letter-spacing: 7.5px;
+
   	}
 
 }
 
 @media (max-width: 530px) {
-  #siteTitle2{
-  	width: 100%;
-	text-align: center;
-	left: 0px;
-  }
-  #navBar2 a{
-	display: none;
-  }
-  #pageTitle{
-  	top: 100px;
-  }
-  #pageTitle span.border{
-  	font-size: 30px;
-  }
-  #galleryContainer {
-    width: 330px;
-    margin: 0 auto;
-  }
-  .tripContainer{
-  width: 300px;
-  }
-  .images{
-  	width: 300px;
-  	height: 300px;
-  }
+	#siteTitle2{
+		width: 100%;
+		text-align: center;
+		left: 0px;
+	}
+	#navBar2 a{
+		display: none;
+	}
+	#pageTitle{
+		top: 85px;
+	}
+	#pageTitle span.border{
+		font-size: 30px;
+		letter-spacing: 5px;
+	}
+	#galleryContainer {
+		width: 330px;
+		margin: 0 auto;
+	}
+	.tripContainer{
+		width: 300px;
+	}
+	.images{
+		width: 300px;
+		height: 300px;
+	}
+	}
+
+@media (max-width: 385px){
+	#pageTitle span.border{
+		font-size: 20px;
+	}
+	#galleryContainer{
+		width: 300px;
+	}
+	.tripContainer{
+		padding: none;
+	}
+	.tripContainer{
+		width: 275px;
+	}
+	.images{
+		width: 275px;
+		height: 275px;
+	}
+
 }
