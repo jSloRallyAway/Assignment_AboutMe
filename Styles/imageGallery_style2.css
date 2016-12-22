@@ -96,22 +96,22 @@ html{
 
 @media (max-width: 940px) {
   #galleryContainer{
-  	width: 780px;
+  		width: 780px;
   }
   .images{
-  	width: 250px;
-  	height: 250px;
+  		width: 250px;
+  		height: 250px;
   }
 }
 
 @media (max-width: 780px) {
   #galleryContainer {
-    width: 550px;
-    margin: 0 auto;
+    	width: 550px;
+    	margin: 0 auto;
   }
   .images{
-  	width: 250px;
-  	height: 250px;
+  		width: 250px;
+  		height: 250px;
   }
 }
 
@@ -121,36 +121,37 @@ html{
   		width: 100%;
 		text-align: center;
 		left: 0px;
-  }
-	#navBar2 a{
+  	}
+
+  	#navBar2{
 		display: none;
-  }
+	}
+
   	#pageTitle span.border{
 		font-size: 30px;
+		letter-spacing: 5px;
+
   	}
 
 }
 
 @media (max-width: 530px) {
-  #siteTitle2{
-  	width: 100%;
-	text-align: center;
-	left: 0px;
-  }
-  #navBar2 a{
-	display: none;
-  }
-  #pageTitle{
-  	top: 100px;
-  }
-  #pageTitle span.border{
-  	font-size: 30px;
-  }
-  #galleryContainer {
-    width: 310px;
-  }
-  .images{
-  	width: 300px;
-  	height: 300px;
-  }
-}
+	#siteTitle2{
+	  	width: 100%;
+		text-align: center;
+		left: 0px;
+	}
+	
+	#pageTitle{
+	  	top: 90px;
+	}
+
+	#galleryContainer {
+	    width: 310px;
+	}
+
+	.images{
+	  	width: 300px;
+	  	height: 300px;
+	  }
+	}
